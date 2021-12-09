@@ -1,5 +1,4 @@
-font-family: "Roboto", sans-serif;
-
+*,
 *::before,
 *::after {
   box-sizing: border-box;
@@ -28,7 +27,7 @@ body::before {
       rgba(88, 129, 87, 0.8),
       rgba(19, 42, 19, 0.7)
     ),
-    url(https://images.unsplash.com/photo-1621761225597-32b61662062f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODR8fGNyeXB0b2N1cnJlbmN5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    url(https://images.unsplash.com/photo-1583752028088-91e3e9880b46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fHN0b2Nrc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -125,7 +124,7 @@ form {
 
 .form-control {
   display: block;
-  width: 95%;
+  width: 99%;
   height: 2.375rem;
   padding: 0.375rem 0.75rem;
   color: #495057;
@@ -152,14 +151,14 @@ form {
 
 .input-textarea {
   min-height: 120px;
-  width: 95%;
+  width: 99%;
   padding: 0.625rem;
   resize: vertical;
 }
 
 .submit-button {
   display: block;
-  width: 100%;
+  width: 99%;
   padding: 0.75rem;
   background: #37af65;
   color: inherit;
